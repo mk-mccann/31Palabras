@@ -1,0 +1,17 @@
+{
+  "name": "31-palabras",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Study Chilean Spanish with 31 Minutos: aligned transcripts, lookups and flashcards.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.9"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
